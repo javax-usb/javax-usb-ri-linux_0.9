@@ -6,10 +6,10 @@ The JSR80 project web site is http://javax-usb.org
 * Requirements *
 ****************
 
-Java      Standard Edition version 1.2 or greater - Micro Edition has not been tested but may work
-ANT       http://jakarta.apache.org/ant (make sure to get the optional.jar file!)
-
-GCC development tools (make, gcc, ld, etc...)
+Java          Standard Edition version 1.2 or greater - Micro Edition has not been tested but may work
+ANT           http://jakarta.apache.org/ant (get the latest version; it contains optional.jar which is required)
+JSR80 RI      You need the javax.usb common RI jarfile (jsr80_ri.jar) in your CLASSPATH
+GCC tools     Get from your Linux distribution
 
 *********
 * Build *
@@ -24,4 +24,3 @@ the toplevel directory to list all available targets.
 
 Add lib/jsr80_ri_linux.jar to your CLASSPATH.
 Add lib/libJavaxUsb.so to your LD_LIBARRY_PATH or /etc/ld.so.conf file.
-
